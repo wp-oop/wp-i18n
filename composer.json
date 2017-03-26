@@ -13,6 +13,7 @@
     "require": {
         "php": "^5.3 | ^7.0",
         "dhii/i18n-interface": "^0.2",
+        "dhii/i18n-abstract": "^0.1",
         "dhii/i18n-base": "^0.1"
     },
     "require-dev": {
