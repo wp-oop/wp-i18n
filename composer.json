@@ -1,5 +1,5 @@
 {
-    "name": "dhii/wp-i18n",
+    "name": "wp-oop/wp-i18n",
     "description": "Internationalization for WP",
     "type": "library",
     "license": "MIT",
