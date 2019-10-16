@@ -8,6 +8,12 @@ php:
   - '7.4snapshot'
   - nightly
 
+matrix:
+  allow_failures:
+    - php: nightly
+    - php: '7.4snapshot'
+  fast_finish: true
+
 before_script:
   - composer update --prefer-dist
 script:
