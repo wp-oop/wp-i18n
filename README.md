@@ -1,10 +1,9 @@
-# Dhii - WP I18n
+# WP I18n
 
-[![Build Status](https://travis-ci.org/Dhii/wp-i18n.svg?branch=master)](https://travis-ci.org/dhii/wp-i18n)
-[![Code Climate](https://codeclimate.com/github/Dhii/wp-i18n/badges/gpa.svg)](https://codeclimate.com/github/Dhii/wp-i18n)
-[![Test Coverage](https://codeclimate.com/github/Dhii/wp-i18n/badges/coverage.svg)](https://codeclimate.com/github/Dhii/wp-i18n/coverage)
-[![Latest Stable Version](https://poser.pugx.org/dhii/wp-i18n/version)](https://packagist.org/packages/dhii/wp-i18n)
-[![This package complies with Dhii standards](https://img.shields.io/badge/Dhii-Compliant-green.svg?style=flat-square)][Dhii]
+[![Build Status](https://travis-ci.org/wp-oop/wp-i18n.svg?branch=develop)](https://travis-ci.org/wp-oop/wp-i18n)
+[![Code Climate](https://codeclimate.com/github/wp-oop/wp-i18n/badges/gpa.svg)](https://codeclimate.com/github/wp-oop/wp-i18n)
+[![Test Coverage](https://codeclimate.com/github/wp-oop/wp-i18n/badges/coverage.svg)](https://codeclimate.com/github/wp-oop/wp-i18n/coverage)
+[![Latest Stable Version](https://poser.pugx.org/wp-oop/wp-i18n/version)](https://packagist.org/packages/wp-oop/wp-i18n)
 
 ## Internationalization for WP
 Conventional WordPress means of i18n prevent us from writing good code. What this package solves:
@@ -17,5 +16,4 @@ Conventional WordPress means of i18n prevent us from writing good code. What thi
 
 For more information about the how and why, please see the [Wiki documentation][docs].
 
-[Dhii]: https://github.com/Dhii/dhii
 [docs]: https://github.com/Dhii/wp-i18n/wiki
