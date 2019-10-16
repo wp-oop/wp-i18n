@@ -21,7 +21,7 @@
         "ptrofimov/xpmock": "^1.1",
         "dhii/php-cs-fixer-config": "dev-php-5.3",
         "codeclimate/php-test-reporter": "<=0.3.2",
-        "10up/wp_mock": "dev-dev",
+        "10up/wp_mock": "^0.4.2",
         "dhii/stringable-interface": "^0.1",
         "dhii/data-key-value-aware-interface": "^0.1"
     },
