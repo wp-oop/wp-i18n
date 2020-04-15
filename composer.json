@@ -1,5 +1,5 @@
 {
-    "name": "dhii/wp-i18n",
+    "name": "wp-oop/wp-i18n",
     "description": "Internationalization for WP",
     "type": "library",
     "license": "MIT",
@@ -11,7 +11,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "php": "^5.3 | ^7.0",
+        "php": "^5.6 | ^7.0",
         "dhii/i18n-interface": "^0.2",
         "dhii/i18n-abstract": "^0.1",
         "dhii/i18n-base": "^0.1"
@@ -21,7 +21,7 @@
         "ptrofimov/xpmock": "^1.1",
         "dhii/php-cs-fixer-config": "dev-php-5.3",
         "codeclimate/php-test-reporter": "<=0.3.2",
-        "10up/wp_mock": "dev-dev",
+        "10up/wp_mock": "^0.2.0",
         "dhii/stringable-interface": "^0.1",
         "dhii/data-key-value-aware-interface": "^0.1"
     },
