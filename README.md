@@ -1,4 +1,4 @@
-# Dhii - WP I18n
+# WP I18n
 
 [![Build Status](https://travis-ci.org/Dhii/wp-i18n.svg?branch=master)](https://travis-ci.org/dhii/wp-i18n)
 [![Code Climate](https://codeclimate.com/github/Dhii/wp-i18n/badges/gpa.svg)](https://codeclimate.com/github/Dhii/wp-i18n)
