@@ -2,10 +2,10 @@
 
 namespace Dhii\I18n\FuncTest;
 
-use Xpmock\TestCase;
 use Dhii\Wp\I18n\FormatTranslator as TestSubject;
 use Dhii\Util\String\StringableInterface as Stringable;
 use Dhii\Data\ValueAwareInterface as Value;
+use PHPUnit\Framework\TestCase;
 
 /**
  * Tests {@see Dhii\I18n\FormatTranslator}.
