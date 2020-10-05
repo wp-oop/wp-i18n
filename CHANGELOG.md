@@ -9,6 +9,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - Now using Docker.
 - Optimized, upgraded, removed, and added other quality tools. Refactored to fix.
 - BC breaking: min PHP version is now 7.1
+- BC breaking: now depending on newer interfaces.
+- BC breaking: implementations completely reworked.
 
 ### Removed
 - BC breaking: remove `TextDomainAwareInterface`. Standards-compliant consumers don't need this.
