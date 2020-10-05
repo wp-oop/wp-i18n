@@ -35,7 +35,7 @@ class SprintfFormatTranslator implements \Dhii\I18n\FormatTranslatorInterface
             throw new FormatTranslationException($e->getMessage(), 0, $e, $context, $format, $params);
         }
 
-        $result = !is_null($context)
+        $result = !is_null($params)
             ? vsprintf($translation, $params)
             : $translation;
 
