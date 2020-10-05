@@ -29,7 +29,9 @@ class StringTranslator implements ContextStringTranslatorInterface
     {
         $textDomain = $this->textDomain;
         $result = is_null($context)
+            /* @psalm-suppress UndefinedFunction */
             ? __($string, $textDomain)
+            /* @psalm-suppress UndefinedFunction */
             : _x($string, $context, $textDomain);
 
         return $result;

@@ -26,6 +26,8 @@ class SprintfFormatTranslator implements \Dhii\I18n\FormatTranslatorInterface
 
     /**
      * @inheritDoc
+     *
+     * @psalm-suppress ParamNameMismatch
      */
     public function translate(string $format, array $params = null, string $context = null): string
     {
