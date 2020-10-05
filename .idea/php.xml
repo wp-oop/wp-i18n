@@ -19,8 +19,6 @@
       <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
       <path value="$PROJECT_DIR$/vendor/psr/log" />
       <path value="$PROJECT_DIR$/vendor/dhii/i18n-interface" />
-      <path value="$PROJECT_DIR$/vendor/dhii/data-key-value-aware-interface" />
-      <path value="$PROJECT_DIR$/vendor/dhii/i18n-abstract" />
       <path value="$PROJECT_DIR$/vendor/dhii/stringable-interface" />
       <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
       <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />

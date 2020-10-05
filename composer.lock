@@ -4,82 +4,35 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3dbf8d377b150290841b24d361b16d08",
+    "content-hash": "1d9b499693435877bf1718228d2310b4",
     "packages": [
         {
-            "name": "dhii/i18n-abstract",
-            "version": "v0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Dhii/i18n-abstract.git",
-                "reference": "90d36bc19f76ff9c618b9ae7631deaa05e7352bc"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Dhii/i18n-abstract/zipball/90d36bc19f76ff9c618b9ae7631deaa05e7352bc",
-                "reference": "90d36bc19f76ff9c618b9ae7631deaa05e7352bc",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^5.3 | ^7.0"
-            },
-            "require-dev": {
-                "codeclimate/php-test-reporter": "<=0.3.2",
-                "dhii/data-key-value-aware-interface": "^0.1",
-                "dhii/i18n-interface": "^0.2",
-                "dhii/php-cs-fixer-config": "dev-php-5.3",
-                "dhii/stringable-interface": "^0.1",
-                "phpunit/phpunit": "^4.8",
-                "ptrofimov/xpmock": "^1.1"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Dhii\\I18n\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Dhii Team",
-                    "email": "development@dhii.co"
-                }
-            ],
-            "description": "Common abstract functionality for internationalization.",
-            "time": "2017-03-15T17:20:07+00:00"
-        },
-        {
             "name": "dhii/i18n-interface",
-            "version": "dev-develop",
+            "version": "0.3.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Dhii/i18n-interface.git",
-                "reference": "597bcedb3590fb7fee0793bdaa1dd4b96470bddb"
+                "reference": "0b816de11af1cc4cda67d1fecddee1e12eb004d9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Dhii/i18n-interface/zipball/597bcedb3590fb7fee0793bdaa1dd4b96470bddb",
-                "reference": "597bcedb3590fb7fee0793bdaa1dd4b96470bddb",
+                "url": "https://api.github.com/repos/Dhii/i18n-interface/zipball/0b816de11af1cc4cda67d1fecddee1e12eb004d9",
+                "reference": "0b816de11af1cc4cda67d1fecddee1e12eb004d9",
                 "shasum": ""
             },
             "require": {
-                "php": "^5.3 | ^7.0"
+                "php": "^7.1"
             },
             "require-dev": {
-                "codeclimate/php-test-reporter": "<=0.3.2",
-                "dhii/data-key-value-aware-interface": "^0.1",
-                "dhii/php-cs-fixer-config": "dev-php-5.3",
-                "dhii/stringable-interface": "^0.1",
-                "phpunit/phpunit": "^4.8",
-                "ptrofimov/xpmock": "^1.1"
+                "phpunit/phpunit": "^7.0 | ^8.0 | ^9.0",
+                "slevomat/coding-standard": "^6.0",
+                "vimeo/psalm": "^3.11.7"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-develop": "0.2.x-dev"
+                    "dev-develop": "0.2.x-dev",
+                    "dev-0.3.x": "0.3.x-dev"
                 }
             },
             "autoload": {
@@ -98,7 +51,7 @@
                 }
             ],
             "description": "Interfaces for internationalization.",
-            "time": "2020-06-13T14:41:56+00:00"
+            "time": "2020-10-05T13:11:26+00:00"
         }
     ],
     "packages-dev": [
@@ -304,16 +257,16 @@
         },
         {
             "name": "brain/monkey",
-            "version": "2.4.0",
+            "version": "2.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Brain-WP/BrainMonkey.git",
-                "reference": "b3ce8b619c26db6abd01b9dcfd6a2c0254060956"
+                "reference": "a11f7a0e703ff92a91b67bbf9ea384ab0ec2c863"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Brain-WP/BrainMonkey/zipball/b3ce8b619c26db6abd01b9dcfd6a2c0254060956",
-                "reference": "b3ce8b619c26db6abd01b9dcfd6a2c0254060956",
+                "url": "https://api.github.com/repos/Brain-WP/BrainMonkey/zipball/a11f7a0e703ff92a91b67bbf9ea384ab0ec2c863",
+                "reference": "a11f7a0e703ff92a91b67bbf9ea384ab0ec2c863",
                 "shasum": ""
             },
             "require": {
@@ -322,9 +275,9 @@
                 "php": ">=5.6.0"
             },
             "require-dev": {
-                "dealerdirect/phpcodesniffer-composer-installer": "^0.4",
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.6 || ^0.7",
                 "phpcompatibility/php-compatibility": "^9.3.0",
-                "phpunit/phpunit": "^5.7.9 || ^6.0 || ^7.0"
+                "phpunit/phpunit": "^5.7.9 || ^6.0 || ^7.0 || ^8.0 || ^9.0"
             },
             "type": "library",
             "extra": {
@@ -366,7 +319,7 @@
                 "test",
                 "testing"
             ],
-            "time": "2019-11-24T16:03:21+00:00"
+            "time": "2020-10-05T08:24:45+00:00"
         },
         {
             "name": "composer/package-versions-deprecated",
@@ -636,48 +589,6 @@
                 "tests"
             ],
             "time": "2020-06-25T14:57:39+00:00"
-        },
-        {
-            "name": "dhii/data-key-value-aware-interface",
-            "version": "v0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Dhii/data-key-value-aware-interface.git",
-                "reference": "220232bc9040fab78a6c039f5a4a5f9542317bdc"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Dhii/data-key-value-aware-interface/zipball/220232bc9040fab78a6c039f5a4a5f9542317bdc",
-                "reference": "220232bc9040fab78a6c039f5a4a5f9542317bdc",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^5.3 | ^7.0"
-            },
-            "require-dev": {
-                "codeclimate/php-test-reporter": "<=0.3.2",
-                "dhii/php-cs-fixer-config": "dev-php-5.3",
-                "phpunit/phpunit": "4.*",
-                "ptrofimov/xpmock": "^1.1"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Dhii\\Data\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Dhii Team",
-                    "email": "development@dhii.co"
-                }
-            ],
-            "description": "Interfaces that aim to increase interoperability of value objects",
-            "time": "2017-01-21T17:35:30+00:00"
         },
         {
             "name": "dhii/stringable-interface",
@@ -2622,12 +2533,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/slevomat/coding-standard.git",
-                "reference": "740684135cf9729849c2516049a61696f8fdd3ae"
+                "reference": "cf2fce8705367b64aa8e810cfa49d9055cff45d2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/slevomat/coding-standard/zipball/740684135cf9729849c2516049a61696f8fdd3ae",
-                "reference": "740684135cf9729849c2516049a61696f8fdd3ae",
+                "url": "https://api.github.com/repos/slevomat/coding-standard/zipball/cf2fce8705367b64aa8e810cfa49d9055cff45d2",
+                "reference": "cf2fce8705367b64aa8e810cfa49d9055cff45d2",
                 "shasum": ""
             },
             "require": {
@@ -2639,11 +2550,11 @@
             "require-dev": {
                 "phing/phing": "2.16.3",
                 "php-parallel-lint/php-parallel-lint": "1.2.0",
-                "phpstan/phpstan": "0.12.40",
+                "phpstan/phpstan": "0.12.48",
                 "phpstan/phpstan-deprecation-rules": "0.12.5",
                 "phpstan/phpstan-phpunit": "0.12.16",
                 "phpstan/phpstan-strict-rules": "0.12.5",
-                "phpunit/phpunit": "7.5.20|8.5.5|9.3.8"
+                "phpunit/phpunit": "7.5.20|8.5.5|9.4.0"
             },
             "type": "phpcodesniffer-standard",
             "extra": {
@@ -2671,7 +2582,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-09-18T12:01:20+00:00"
+            "time": "2020-10-05T12:32:23+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
