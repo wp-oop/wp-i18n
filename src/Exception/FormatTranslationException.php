@@ -16,7 +16,7 @@ class FormatTranslationException extends ContextStringTranslationException imple
     /**
      * {@inheritDoc}
      *
-     * @param null $params The parameters for interpolation, if any.
+     * @param array|null $params The parameters for interpolation, if any.
      */
     public function __construct(
         $message = "",
