@@ -9,7 +9,7 @@ use Throwable;
 class FormatTranslationException extends ContextStringTranslationException implements FormatTranslationExceptionInterface
 {
     /**
-     * @var null
+     * @var array|null
      */
     protected $params;
 

@@ -25,14 +25,14 @@ class StringTranslator implements ContextStringTranslatorInterface
     /**
      * @inheritDoc
      */
-    public function translate(string $string, string $context = null): string
+    public function translate(string $subject, string $context = null): string
     {
         $textDomain = $this->textDomain;
+
+        /* @psalm-suppress UndefinedFunction */
         $result = is_null($context)
-            /* @psalm-suppress UndefinedFunction */
-            ? __($string, $textDomain)
-            /* @psalm-suppress UndefinedFunction */
-            : _x($string, $context, $textDomain);
+            ? __($subject, $textDomain)
+            : _x($subject, $context, $textDomain);
 
         return $result;
     }
