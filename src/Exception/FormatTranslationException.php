@@ -34,7 +34,7 @@ class FormatTranslationException extends ContextStringTranslationException imple
     /**
      * {@inheritDoc}
      */
-    public function getParams()
+    public function getParams(): ?array
     {
         $params = $this->params;
         $params = is_array($params)

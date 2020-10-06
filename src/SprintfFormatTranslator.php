@@ -29,7 +29,7 @@ class SprintfFormatTranslator implements FormatTranslatorInterface
      *
      * @psalm-suppress ParamNameMismatch
      */
-    public function translate(string $subject, array $params = null, string $context = null): string
+    public function translate(string $subject, ?array $params = null, ?string $context = null): string
     {
         try {
             $translation = $this->translator->translate($subject, $context);

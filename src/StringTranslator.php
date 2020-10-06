@@ -24,7 +24,7 @@ class StringTranslator implements ContextStringTranslatorInterface
     /**
      * @inheritDoc
      */
-    public function translate(string $subject, string $context = null): string
+    public function translate(string $subject, ?string $context = null): string
     {
         $textDomain = $this->textDomain;
 

@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Dhii/i18n-interface.git",
-                "reference": "3aca77a9e8d083ad720bdde32932786db7cbfca9"
+                "reference": "bdb87dae669465c380e2a9d6c0d0cf4964737c4f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Dhii/i18n-interface/zipball/3aca77a9e8d083ad720bdde32932786db7cbfca9",
-                "reference": "3aca77a9e8d083ad720bdde32932786db7cbfca9",
+                "url": "https://api.github.com/repos/Dhii/i18n-interface/zipball/bdb87dae669465c380e2a9d6c0d0cf4964737c4f",
+                "reference": "bdb87dae669465c380e2a9d6c0d0cf4964737c4f",
                 "shasum": ""
             },
             "require": {
@@ -51,7 +51,7 @@
                 }
             ],
             "description": "Interfaces for internationalization.",
-            "time": "2020-10-05T16:03:00+00:00"
+            "time": "2020-10-06T08:41:08+00:00"
         }
     ],
     "packages-dev": [

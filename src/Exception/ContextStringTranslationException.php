@@ -50,7 +50,7 @@ class ContextStringTranslationException extends RuntimeException implements Cont
     /**
      * {@inheritDoc}
      */
-    public function getContext()
+    public function getContext(): ?string
     {
         return $this->context;
     }
