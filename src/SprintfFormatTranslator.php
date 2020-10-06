@@ -29,12 +29,12 @@ class SprintfFormatTranslator implements \Dhii\I18n\FormatTranslatorInterface
      *
      * @psalm-suppress ParamNameMismatch
      */
-    public function translate(string $format, array $params = null, string $context = null): string
+    public function translate(string $subject, array $params = null, string $context = null): string
     {
         try {
-            $translation = $this->translator->translate($format, $context);
+            $translation = $this->translator->translate($subject, $context);
         } catch (ContextStringTranslationExceptionInterface $e) {
-            throw new FormatTranslationException($e->getMessage(), 0, $e, $context, $format, $params);
+            throw new FormatTranslationException($e->getMessage(), 0, $e, $context, $subject, $params);
         }
 
         $result = !is_null($params)
