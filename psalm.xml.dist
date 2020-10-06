@@ -25,6 +25,7 @@
         hideExternalErrors="true"
         allowFileIncludes="true"
         autoloader="psalm-autoload.php"
+        cacheDirectory="/var/tmp/psalm"
 >
     <projectFiles>
         <directory name="src"/>
@@ -37,6 +38,7 @@
         <ignoreFiles>
             <directory name="vendor/phpunit/php-code-coverage/tests"/>
             <directory name="vendor/phpspec/prophecy"/>
+            <directory name="vendor/vimeo/psalm"/>
         </ignoreFiles>
         <directory name="vendor" />
     </extraFiles>

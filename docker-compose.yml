@@ -27,3 +27,7 @@ services:
     working_dir: ${BUILD_ROOT_PATH}
     volumes:
       -  ${BASE_PATH}:${BUILD_ROOT_PATH}
+      - psalm_cache:/var/tmp/psalm
+
+volumes:
+  psalm_cache:
