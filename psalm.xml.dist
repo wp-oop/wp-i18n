@@ -34,16 +34,6 @@
         </ignoreFiles>
     </projectFiles>
 
-    <extraFiles>
-        <ignoreFiles>
-            <directory name="vendor/phpunit/php-code-coverage/tests"/>
-            <directory name="vendor/phpspec/prophecy"/>
-            <directory name="vendor/vimeo/psalm"/>
-        </ignoreFiles>
-        <directory name="vendor" />
-    </extraFiles>
-
-
     <issueHandlers>
         <ConflictingReferenceConstraint errorLevel="error"/>
         <ContinueOutsideLoop errorLevel="error"/>
