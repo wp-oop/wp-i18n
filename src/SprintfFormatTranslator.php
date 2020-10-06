@@ -1,15 +1,15 @@
 <?php
 
+declare(strict_types=1);
 
 namespace WpOop\I18n;
 
-
 use Dhii\I18n\ContextStringTranslatorInterface;
 use Dhii\I18n\Exception\ContextStringTranslationExceptionInterface;
-use Dhii\I18n\Exception\FormatTranslationExceptionInterface;
+use Dhii\I18n\FormatTranslatorInterface;
 use WpOop\I18n\Exception\FormatTranslationException;
 
-class SprintfFormatTranslator implements \Dhii\I18n\FormatTranslatorInterface
+class SprintfFormatTranslator implements FormatTranslatorInterface
 {
     /**
      * @var ContextStringTranslatorInterface

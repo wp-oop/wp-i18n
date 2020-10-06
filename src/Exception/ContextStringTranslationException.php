@@ -1,8 +1,8 @@
 <?php
 
+declare(strict_types=1);
 
 namespace WpOop\I18n\Exception;
-
 
 use Dhii\I18n\Exception\ContextStringTranslationExceptionInterface;
 use RuntimeException;
