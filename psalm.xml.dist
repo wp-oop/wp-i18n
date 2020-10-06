@@ -24,6 +24,7 @@
         throwExceptionOnError="false"
         hideExternalErrors="true"
         allowFileIncludes="true"
+        autoloader="psalm-autoload.php"
 >
     <projectFiles>
         <directory name="src"/>
