@@ -10,7 +10,9 @@ use Throwable;
 class FormatTranslationException extends ContextStringTranslationException implements FormatTranslationExceptionInterface
 {
     /**
-     * @var array|null
+     * A map of parameter position to value.
+     *
+     * @var mixed[]|null
      */
     protected $params;
 
@@ -18,6 +20,7 @@ class FormatTranslationException extends ContextStringTranslationException imple
      * {@inheritDoc}
      *
      * @param array|null $params The parameters for interpolation, if any.
+     * @psalm-param array<positive-int, scalar>|null $params
      */
     public function __construct(
         $message = "",

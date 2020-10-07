@@ -20,6 +20,8 @@ class ContextStringTranslationException extends RuntimeException implements Cont
     protected $subject;
 
     /**
+     * @inheritDoc
+     *
      * @param string|null $context The context of translation, if any.
      * @param string $subject The subject being translated.
      */
